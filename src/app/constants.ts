@@ -5,3 +5,9 @@ export const images = {
   moon,
   light,
 };
+
+export const links = {
+  home: '/',
+  projects: '/projects',
+  contact: '/contact',
+};

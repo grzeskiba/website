@@ -27,16 +27,33 @@ body {
 
 :root {
   --background: #2f3e46;
-  --foreground: #171717;
+  --foreground: #bc4749;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #2f3e46;
+    --foreground: #cad2c5;
   }
 }
 
 @theme {
-  --color-default-500: #cad2c5;
+  --color-link: #bc4749;
+  --foreground: #bc4749;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+a {
+  color: var(--color-link);
+  @apply font-bold;
+}
+
+a:hover {
+  color: var(--foreground);
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
