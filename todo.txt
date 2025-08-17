@@ -1,0 +1,6 @@
+- Add routing
+- Generate blog post with MD
+- Style everything with two modes light and dark
+
+
+- Build the webstie and publish it on github pages

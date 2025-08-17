@@ -6,10 +6,10 @@ export function Navbar() {
     <nav className="shadow-md fixed w-full top-0">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
-          <div className="flex-shrink-0 text-xl font-bold text-blue-600">grgskb.com</div>
+          <div className="flex-shrink-0 text-xl font-bold text-default-500">grgskb.com</div>
 
           <div className="hidden md:flex space-x-8">
-            <a href="#" className="text-gray-700 hover:text-blue-600">
+            <a href="#" className="text-default-900 hover:text-blue-600">
               Home
             </a>
             <a href="#" className="text-gray-700 hover:text-blue-600">
@@ -41,7 +41,7 @@ export function Navbar() {
         <a href="#" className="block py-2 text-gray-700 hover:text-blue-600">
           Services
         </a>
-        <a href="#" className="block py-2 text-gray-700 hover:text-blue-600">
+        <a href="#" className="block py-2 hover:text-blue-600">
           Contact
         </a>
       </div>
